@@ -15,7 +15,7 @@ static void test_add(void)
 int main(void)
 {
 	test_add();
-	puts("All tests passed.");
+	puts("All tests passed. Yayyy");
 	return 0;
 }
 
