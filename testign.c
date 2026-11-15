@@ -8,7 +8,7 @@ static int add(int left, int right)
 }
 static void test_add(void)
 {
-	assert(add(2, 3) == 5);
+	assert(add(2, 3)4 == 5);
 	assert(add(0, 0) == 0);
 	assert(add(-4, 7) == 3);
 }
