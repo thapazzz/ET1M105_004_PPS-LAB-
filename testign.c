@@ -12,7 +12,6 @@ static void test_add(void)
 	assert(add(0, 0) == 0);
 	assert(add(-4, 7) == 3);
 }
-
 int main(void)
 {
 	test_add();
