@@ -13,5 +13,6 @@ int main(){
     if (num==0){
         printf("%d is neither even or odd.",num);
     }
+    
 return 0;
 }
