@@ -15,7 +15,6 @@ int main(){
     prdt = num1 * num2;
     
     quot = (float)num1/num2;
-
     printf("The sum is: %d \nThe difference is: %d \nThe product is: %d \nThe quotient is: %f",sum,diff,prdt,quot);
 return 0;
 }
