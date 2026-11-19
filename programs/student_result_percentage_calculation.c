@@ -22,7 +22,7 @@ int main(){
     avg = sum/4;
     percent = (sum/400)*100;
 
-    printf("\nTotal marks obtained by %c is: %0.2f",name,sum);
+    printf("\nTotal marks obtained: %0.2f",sum);
     printf("\nThe average marks obtained is: %0.2f",avg);
     printf("\nPercentage obtained by student is: %0.2f\n",percent);
         if (eng<40){
