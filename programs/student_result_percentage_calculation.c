@@ -21,7 +21,11 @@ int main(){
     sum = eng + hindi + math + science;
     avg = sum/4;
     percent = (sum/400)*100;
-    if (eng<40){
+
+    printf("\nTotal marks obtained by %c is: %0.2f",name,sum);
+    printf("\nThe average marks obtained is: %0.2f",avg);
+    printf("\nPercentage obtained by student is: %0.2f\n",percent);
+        if (eng<40){
         fail +=1;
         printf("\nStudent has failed in english");
     }
@@ -37,10 +41,6 @@ int main(){
         fail +=1;
         printf("\nStudent has failed in science");
     }
-
-    printf("\nTotal marks obtained by %c is: %0.2f",name,sum);
-    printf("\nThe average marks obtained is: %0.2f",avg);
-    printf("\nPercentage obtained by student is: %0.2f",percent);
     if (fail != 0)
     {
         /* code */
